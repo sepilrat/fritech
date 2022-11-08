@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRI-TECH</title>
+    <!-- SEO -->
+    <meta name="Description" content="Tecnología, computación, informática, precio, calidad">
+
+    <title>FRI-TECH - informática</title>
     <!-- site css-->
     <link rel="stylesheet" href="./css/style.css">
     <!--favicom-->
@@ -70,58 +73,68 @@
 
             </nav>
         </div>
-
+        <!-- fin navegación -->
     </header>
+    <!-- main -->
+
+    <main class="main container-fluid">
+        <div class="row ">
+            <div class="col-12 main_contacto">
 
 
-    <!-- buscador -->
-    <div class="search container">
-        <form>
-            <div class="form-group row">
-                <!-- <label for="inputSearch" class="col-sm-2 col-form-label">Email</label> -->
-                <div class="col-sm-10 col-lg-6">
-                    <input type="buscar" class="form-control" id="inputSearch" placeholder="Buscar">
-                </div>
-
-                <div class="col-sm-2 col-lg-2">
-                    <button type="submit" class="btn btn-primary">Buscar</button>
-                </div>
-            </div>
-        </form>
-    </div>
-
-    <!-- fin buscador -->
-    <div class="products__list container">
-        <div class="card-group">
-            <div class="card">
-                <img src="./img/productos/producto1.jpeg" height="300px" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Video Vigilancia</h5>
-                    <p class="card-text">Las mejores marcas y asesoramiento en video Vigilancia.</p>
-
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/productos/laptop.jpg" height="300px" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">PC / Notebooks</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
-                    </p>
-
-                </div>
-            </div>
-            <div class="card">
-                <img src="./img/productos/antena.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">telecomunicaciones</h5>
-                    <p class="card-text">Amplia gama de productos para la interconexión inalámbrica .</p>
-
+                <div class="row">
+                    <div class="col-6"> </div>
+                    <div class=" col-6 contact_div_transparente">
+                        <span>ESTAMOS PARA ASESORARTE</span>
+                        <form action="" method="post">
+                            <div class="col-12">
+                                <input type="text" name="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="col-12"><input type="text" name="email" placeholder="E-Mail"></div>
+                            <div class="col-12"><input type="text" name="telefono" placeholder="Telefono"></div>
+                            <div class="col-12"><textarea name="consulta" placeholder="Consulta"></textarea></div>
+                            <div class="col-12"><button name="buttonContacto">Enviar</button></div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <contact><img src="./img/whatsapp.png"></contact>
+
+        <!-- <h1 class="text-warning bg-black">COMUNICATE CON NOSOTROS</h1>
+            <H2 class="text-danger strong bg-black">PARA TUS CONSULTAS POR PRODUCTOS O SERVICIOS CONTRATADOS.</H2> -->
+
+    </main>
+    <!-- CONTACTO -->
+    <div>
+        <H3 class="texto_seccion text-warning">CONTACTO</H3>
+    </div>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+
+
+            <div class="col-4">
+                <div><img src="./img/iconos/telefono.jpeg"></div>
+                <div>
+                    TELEFONICAMENTE<BR>
+                    Tel . 114455-4543
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div><img src="./img/iconos/tienda.jpeg"></div>
+                <div>
+                    Sucursar Buenos Aires<br>
+                    Pozos del combate 3458- Puerto Madero. <br>
+                    (CP 3434)<br>
+                </div>
+            </div>
+            <div class="col-4">
+                <div> <img src="./img/iconos/redes.jpeg"></div>
+                <div>e-mail: info@FRI-TECH.com</div>
+            </div>
+        </div>
+    </div>
     <footer class="container-fluid">
         <div class="row">
             <div class=col-4>
@@ -133,10 +146,12 @@
                 114455-4543<br>
                 info@FRI-TECH.com
             </div>
-            <div class="col-4">whatsapp</div>
+            <div class="col-4">whatsapp <br>114455-4543</div>
         </div>
 
     </footer>
+
+
 </body>
 
 </html>
