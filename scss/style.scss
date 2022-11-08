@@ -202,20 +202,20 @@
          width: 100%;
      }
 
-    //  .main {
-    //      position: relative;
-    //      display: block;
-    //      padding-top: 90px;
-    //  }
+      .main_contacto_principal {
+         position: relative;
+         display: block;
+         padding-top: 90px;
+     }
 
-     .main .main__text {
+     .main_contacto_principal .main__text {
          position: absolute;
          top: 30%;
          left: 20%;
          animation: fadeIn 5s;
      }
 
-     .main .main_first_image {
+     .main_contacto_principal .main_first_image {
          width: 100%;
          height: 400px;
      }
